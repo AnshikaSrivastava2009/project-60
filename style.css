@@ -1,152 +1,144 @@
-body{
-padding-top:800px;
-    margin: 0;
+body {
+    margin: 0px;
+    padding-top: 800px;
     text-align: center;
-}
-.profile{
-    width: 400px;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    border: 5px solid blue;
-    padding: 5px;
-}
-#welcome{
-    position: absolute;
-    overflow: hidden;
-    height: 800px;
-    color:red;
-    left: 0;
-     right: 0;
-     top: 0;
-     bottom: 0;
-    opacity: 0.83;
-    background-image: linear-gradient(pink,lavender,yellow);
-    display: table;
-    width: 100%;
-    height:100%;
-    z-index: 9;
-    font-weight: bold;
-    font-size: 45px;
-}
-.inner{
-    display: table-cell;
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
 }
 
-h1{
-  text-shadow:2px 2px #F8BBD0;
-  font-size:35px;
-    line-height: 1.2;
-    font-weight: 300;
-    color: Blue;
+#about {
+    position: absolute;
+    height: 800px;
+    color: black;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    background: linear-gradient(#b3e8aa 0%, #fb0303 100%);
+    display: table;
+    text-align: center;
+    z-index: 9;
 }
-#name{
-    font-size: 45px;
-    line-height: 1.2;
-    font-weight: 400;
-    color: purple;
-}
-p{
-  font-size:25px;
-  color:purple;
-  font-weight:bold;
-     line-height: 1.3;
-}
-.line{
-  height:6px;
-  background-color:black;
-  width:70px;
-  margin:8px auto;
-    
-   
-}
-#hobby{
-  font-size:42;
-  text-align:center;
+
+#Myfavouritehobby {
+    background: linear-gradient(#eeff00 0%, #ffc700 100%);
+    text-align: center;
     padding: 50px;
-    background-image: linear-gradient(pink,skyblue);
+    font-size: 20px;
+    height: 563px;
 }
-.menu{
+
+#Myfavouritebook {
+    background: linear-gradient(#fbbafa 0%, #b9bbfa 100%);
+    padding: 50px;
+    font-size: 20px;
+    height: 700px;
+}
+
+#Myinspiration {
+    background: linear-gradient(#04fefe 0%, #b3e8aa 100%);
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    height: 508px;
+}
+
+.profile {
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    display: table-cell;
+}
+
+.menu {
     list-style: none;
-    float: right;
-    top:10px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
     right: 30px;
-    cursor: pointer;
-    color: black; 
     z-index: 10;
+    cursor: pointer;
     position: fixed;
-    margin-top: 0px;
-    background-color: pink;
 }
-.links{
+
+.link {
     float: left;
-    color: purple;
+    color: black;
     padding-top: 5px;
-     padding-bottom: 5px;
+    padding-bottom: 5px;
     padding-left: 9px;
     padding-right: 9px;
-    font-size: 20px;
-    border: 2px solid #f01c41;
-}
-.links:hover{
-    background-image: linear-gradient(pink,lavender,skyblue);
-    font-size: 25px;
-    text-decoration: underline;
-    color:deeppink;
     font-family: fantasy;
+    font-size: 20px;
 }
-a{
+
+.link:hover {
+    background-color: dodgerblue;
+}
+
+a {
     text-decoration: none;
-    font-size:20px;
 }
-a:hover{
-    text-decoration: underline;
-    font-size: 25px;
+
+.article:hover {
+    color: fuchsia;
 }
-.picture.hover{
-    color: purple;
-}
-html{
+
+html {
     scroll-behavior: smooth;
 }
-#player{
-    background-image: linear-gradient(pink,#f2ab29,yellow);
+
+#mypicture {
+    width: 160px;
+    border-radius: 50%;
 }
-#inspiration{
-     background-image: linear-gradient(skyblue,lavender,yellow);
+
+#cricket {
+    width: 160px;
+    border-radius: 50%;
 }
-.image{
-    width: 300px;
+
+#Lifeofpi {
+    width: 160px;
+    border-radius: 50%;
 }
-#books{
-   background-image: linear-gradient(skyblue,lavender,yellow);
+
+#billgates {
+    width: 160px;
+    margin-bottom: 50px;
 }
-img{
-      width: 200px;
-border-radius: 5px;
+
+h1 {
+    font-family: 'New Tegomin', serif;
+}
+
+#name {
+    font-family: 'Lobster', cursive;
+}
+
+#hobby {
+    font-family: 'Dancing Script', cursive;
+}
+
+#book {
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 60px;
+    margin: 8px auto;
+}
+
+.inspiration {
+    width: 160px;
     transition: transform .2s;
 }
-img:hover{
-    border: 4px solid black;
+
+.inspiration:hover {
     transform: scale(0.9);
-}
-#contact{
-    background-image: linear-gradient(#f2d59f,lavender);
-    height: 400px;
-    width:100%;
-}
-#contact img{
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
-    border: 2x solid black;
-    box-shadow: 2px 2px #4a4646;
-}
-h3{
-    color:red;
-    text-decoration: underline;
-    text-shadow: pink;
-    font-size: 25px;
 }
